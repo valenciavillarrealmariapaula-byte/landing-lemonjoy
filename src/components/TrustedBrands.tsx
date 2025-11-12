@@ -8,10 +8,10 @@ export const TrustedBrands = () => {
   const { t } = useLanguage();
 
   const events = [
-    { name: 'LVMH Gala 2024', img: case5, date: 'Jan 2024', location: 'Paris' },
-    { name: 'Dior Launch Event', img: case6, date: 'Feb 2024', location: 'NYC' },
-    { name: "Gucci Fashion Week", img: case7, date: 'Mar 2024', location: 'London' },
-    { name: 'FIFA Corporate Summit', img: case8, date: 'May 2024', location: 'Chicago' },
+    { name: 'Beauty consultants seminar Givenchy', img: case5, date: '2025', location: 'Guatemala' },
+    { name: 'Dior Marketing Seminar', img: case6, date: '2025', location: 'Miami' },
+    { name: "Distribuitors meeting Coty", img: case7, date: '2025', location: 'Tulum' },
+    { name: 'FIFA Summit', img: case8, date: '2025', location: 'Miami' },
   ];
 
   return (
