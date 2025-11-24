@@ -42,7 +42,7 @@ export const Footer = () => {
               {locations.map(({ key, icon: Icon }) => (
                 <li key={key} className="flex items-center gap-2 text-secondary-foreground/80">
                   <Icon className="w-4 h-4" />
-                  {t(footer.${key})}
+                  {t(`footer.${key}`)}
                 </li>
               ))}
             </ul>
