@@ -21,12 +21,19 @@ export const Footer = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
-          <div>
-            <h3 className="text-3xl font-bold text-primary mb-4">Lemonjoy</h3>
-            <p className="text-secondary-foreground/80">
-              Experiential Events Agency
-            </p>
-          </div>
+{/* Brand */}
+<div>
+  {/* Logo solamente */}
+  <img 
+    src="/lemonjoy-logo.png" 
+    alt="Lemonjoy Logo"
+    className="w-32 h-auto mb-4"
+  />
+
+  <p className="text-secondary-foreground/80">
+    Experiential Events Agency
+  </p>
+</div>
 
           {/* Locations */}
           <div>
@@ -35,7 +42,7 @@ export const Footer = () => {
               {locations.map(({ key, icon: Icon }) => (
                 <li key={key} className="flex items-center gap-2 text-secondary-foreground/80">
                   <Icon className="w-4 h-4" />
-                  {t(`footer.${key}`)}
+                  {t(footer.${key})}
                 </li>
               ))}
             </ul>
@@ -51,6 +58,10 @@ export const Footer = () => {
               <Mail className="w-4 h-4" />
               hello@lemonjoyevents.com
             </a>
+              {/* ← Nuevo texto debajo */}
+  <p className="mt-2 text-secondary-foreground/60 text-sm">
+    https://lemonjoyevents.com/es/
+  </p>
             <div className="flex gap-4 mt-6">
               {socials.map(({ icon: Icon, href }, index) => (
                 <a
