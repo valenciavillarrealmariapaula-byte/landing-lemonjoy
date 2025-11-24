@@ -22,19 +22,19 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
 {/* Brand */}
-<div>
-  {/* Logo solamente */}
-  <img 
-    src="/lemonjoy-logo.png" 
-    alt="Lemonjoy Logo"
-    className="w-32 h-auto mb-4"
-  />
+          <div>
+            {/* Logo solamente */}
+            <img 
+              src="/landing-lemonjoy/lemonjoy-logo.png" // <-- ¡ESTA ES LA RUTA FINAL CORREGIDA!
+              alt="Lemonjoy Logo"
+              className="w-32 h-auto mb-4"
+            />
 
-  <p className="text-secondary-foreground/80">
-    Experiential Events Agency
-  </p>
-</div>
-
+            <p className="text-secondary-foreground/80">
+              Experiential Events Agency
+            </p>
+          </div>
+          
           {/* Locations */}
           <div>
             <h4 className="text-lg font-semibold mb-4">{t('footer.locations')}</h4>
